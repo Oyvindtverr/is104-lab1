@@ -1,5 +1,6 @@
-Kontroll spørsmål
-
+#############################
+# Kontroll spørsmål - LAB 1 #
+#############################
 0.
 JavaScript kan brukes til å gi dynamisk innhold til nettsider, f.eks en klokke eller en nyhetsoversikt som oppdaterer seg selv.
 
@@ -23,3 +24,10 @@ mens span-taggen brukes for å endre noe inline, f.eks et ord i en setning.
 Det er mye som kunne vært forbedret, blant annet kunne v hatt en beskrivelse om hva siden handler om
 overskrift, mer utfyllende info om språket man velger i listen osv..
 
+#############################
+# Kontroll spørsmål - LAB 2 #
+#############################
+
+0.
+I vårt tilfelle er HTML=Model, CSS=View og JavaScript=Controller
+HTML inneholder grunndataene, CSS bestemmer utseende og JS kan manipulere begge deler
