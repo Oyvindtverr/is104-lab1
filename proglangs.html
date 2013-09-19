@@ -24,9 +24,12 @@
  
 </head>
 
+
 <body>
 
-	<ul id="liste"class="listestil">  <!-- Lager unordered list, der liste elementene har varierte IDer -->
+
+<!-- Kommenterer vekk liste
+	<ul id="liste"class="listestil">
 		<li id="top_5">ActionScript</li>
 		<li id="top_5">AppleScript</li>
 		<li id="top_5">Asp</li>
@@ -50,11 +53,19 @@
 		<li id="de_siste_4">Scala</li>
 		<li id="de_siste_4">Scheme</li>
 	</ul>
+-->
 
-<hr>
-<div align="center">	 <!-- Sentrer rullegardin liste og utdataboks ved hjelp av div -->
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="index.html">Hjem</a>
+  <li><a href="musings.html">Kronologisk</a>
+  <li><a href="town.html">Hierarkisk</a>
+  <li><a href="links.html">Alfabetisk</a>
+</ul>
+
+<div id="listestil">	 <!-- Sentrer rullegardin liste og utdataboks ved hjelp av div -->
 <form>
-	<label for="spraak">Velg et språk:</label>
+	<label for="spraak">Søk i programmeringsspråk:</label>
 	<select name="velgsspraak" id="spraak" onChange="skrivTilUtdataBoks(this)">
 		<option value="ActionScript">ActionScript</option>
 		<option value="AppleScript">AppleScript</option>
@@ -78,12 +89,15 @@
 		<option value="Ruby">Ruby</option>
 		<option value="Scala">Scala</option>
 		<option value="Scheme">Scheme</option>
-	<select>
-	 
+	</select>
+	 <!-- Feltet nedenfor vil bli manipulert av prolangs.js når noe blir valgt i rullegardin listen -->
+	<span id="utdataboks">Du har ikke valgt noe programmeringsspråk enda. Velg ett fra rullegardin-listen!</span>
 </form>
- <!-- Feltet nedenfor vil bli manipulert av prolangs.js når noe blir valgt i rullegardin listen -->
-<span id="utdataboks">Du har ikke valgt noe programmeringsspråk enda. Velg ett fra rullegardin-listen!</span>
+
+
 </div>
 
+<h1>Programmeringsspråk, hva er det?</h1>
+<p> Her er ett avsnitt.</p>
 </body>
 </html>
