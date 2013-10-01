@@ -1,3 +1,4 @@
+ /* Stil for body taggen, som hentet fra Janis sin mal */
  body {
     padding-left: 11em;
     font-size: 18px;
@@ -5,6 +6,7 @@
           Times, serif;
     color: orange;
     background-color: #222222}
+ /* Stil for menyen til venstre */
   ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -13,18 +15,23 @@
     top: 2em;
     left: 1em;
     width: 9em }
+  /* Stil for heading1 */
   h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif }
+   /* Stil for listeelementer */
   ul.navbar li {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
     border-right: 1em solid orange }
+/* Stil for linker i meny */
   ul.navbar a {
     text-decoration: none }
+/* Stil for ikke-besøkte linker */
   a:link {
     color: blue }
+/* Stil for besøkte linker */
   a:visited {
     color: purple }
   address {
@@ -32,7 +39,7 @@
     padding-top: 1em;
     border-top: thin dotted }
 
-
+ /* Nedenfor er stiler for IDer brukt i LAB1 */
 #top_5 {
 	color: purple;
 }
