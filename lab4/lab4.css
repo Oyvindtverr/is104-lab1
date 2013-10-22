@@ -20,7 +20,7 @@ body{
 
 #body-container .content-container{
 	width: 415px;			/* Her settes bredden til content-container */
-	height: 500px;			/* Her settes høyden til content-container */
+	height: 430px;			/* Her settes høyden til content-container */
 	overflow: auto;			/* Et rullefelt vises når innholdet er større enn den spesifiserte høyden */
 	font-family: 'Arial', Verdana, Tahoma; /* Forskjellige skrifttype-alternativer */
 	font-size: 10pt;		/* Skriftstørrelse på 10 punkter */
